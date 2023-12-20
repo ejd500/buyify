@@ -1,0 +1,280 @@
+#checkout{
+    margin-top: 0px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    gap:24px
+}
+
+#checkout .banner{
+    background-color: black;
+    height:160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#checkout h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#checkout h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    text-align: left;
+}
+
+#checkout h4{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #808080;
+    text-align: left;
+    margin-top: 8px;
+}
+
+.my-bag{  
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.image-container{
+    width:300px;
+    height:300px;
+}
+
+.cart-item {
+    display: flex;
+    gap:16px;
+    width: 100%;
+    height: fit-content;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 24px;  
+}
+
+#order-summary{  
+    width: 100%;
+    height: fit-content;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 24px;
+}
+
+#description{
+    display:flex;
+    flex-direction: column;
+    gap:16px;
+}
+
+#price{     
+    white-space: nowrap;   
+}
+
+.info{   
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 8px 8px;
+}
+
+#subtotal{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+   
+}
+
+#shipping{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+}
+
+#tax{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+#total{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+}
+#quantity{
+    margin-right: 16px;
+    margin-bottom: 8px;
+}
+#remove{
+    font-weight: bold;
+    color:#666666;
+    cursor: pointer;
+    padding: 5px 0px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #666666;
+    background-color: transparent;
+}
+#hr{
+    background-color: #808080;
+    height: 1px;
+    width: 100%;
+}
+
+@media only screen and (min-width:580px) and (max-width: 1120px) {
+ 
+    .cart-item {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .my-bag{  
+    gap:36px;
+    
+    }   
+}
+
+@media only screen and (min-width:360px) and (max-width: 579px) {
+ 
+    .cart-item {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+            
+    }
+
+    .my-bag{  
+        gap:36px;
+    }
+
+    
+    #checkout{    
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 40px;
+    }
+}
+/* -------------- */
+
+
+/* #checkout{
+    margin: 0px 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+#checkout .banner{
+    background-color: black;
+    height:160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#checkout h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#checkout h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    /* margin-top: 32px;
+}
+#checkout h4{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #808080;
+    text-align: left;
+    margin-top: 8px;
+}
+#my-bag{
+    /* background-color: aqua;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+#left{
+    
+    display: flex;
+    gap: 48px;
+    width: 100%;
+    height: fit-content;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+}
+#right{
+    width: 100%;
+    height: 400px;
+    margin-left: 32px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 16px;
+}
+#description{
+}
+#price{
+    width: 100px;
+    text-align: right;
+}
+#info{
+    display: flex;
+    gap: 200px;
+    padding: 0px 0px;
+}
+
+#subtotal{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+}
+#shipping{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+}
+#tax{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+} */

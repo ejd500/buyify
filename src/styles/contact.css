@@ -1,0 +1,111 @@
+#contactpage{
+    margin: 0px 120px;
+}
+#contactpage h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 500px;
+    background-color: white;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 0 0px 8px lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+#form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 60px;
+    
+}
+#inputs{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.label{
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-family: 'Nunito', sans-serif;
+}
+.text{
+    height: 30px;
+    border: 1px solid lightgray;
+}
+#message{
+    height: 150px;
+    border: 1px solid lightgray;
+    margin-bottom: 40px;
+}
+#message-button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px 0px;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width:620px) and (max-width: 800px) {
+    #contactpage{
+        margin: 0px 60px;
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width: 619px) {
+
+    #contactpage{
+        margin: 0px 20px;
+    }
+
+    .form{
+        width:400px;
+        height:400px;
+    }
+
+    #inputs{
+        width:360px;
+    }
+}    
+
+@media only screen and (min-width:360px) and (max-width: 479px) {
+
+    #contactpage{
+        margin: 0px 20px;
+    }
+
+    .form{
+        width:300px;
+        height:300px;
+    }
+
+    #inputs{
+        width:260px;
+    }
+
+    #contactpage h2{
+        
+        font-size: 36px;
+        
+    }
+}
+    
+
+

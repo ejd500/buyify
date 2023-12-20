@@ -1,0 +1,179 @@
+.header{
+    height:313px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#top{
+    width:100%;
+    height: 124.8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 120px;
+    align-items: center;
+}
+#logo{
+    width: 325.26px;
+    height: 124.8px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+#buyify{
+    font-family: 'Satisfy', cursive;
+    font-size: 64px;
+    transform: rotate(-12.65deg);
+    width: fit-content;
+}
+#shop-online{
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    color: #808080;
+}
+
+#phone-email-checkout{
+    display: flex;
+    gap: 24px;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    color: #808080;
+    align-items: center;
+}
+#phone{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    white-space: nowrap;
+}
+#phone:hover{
+    color: black;
+}
+#email{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+#email:hover{
+    color: black;
+}
+#header-checkout{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+#header-checkout:hover{
+    color: black;
+}
+#num-items{
+    border-radius: 24px;
+    width: 28px;
+    height: 28px;
+    background-color: #808080;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+#num-items:hover{
+    background-color: black;
+}
+
+#nav{
+    display: flex;
+    justify-content: center;
+    color: #808080;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    gap: 40px;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+}
+.header a:link{
+    color: #808080;
+    text-decoration: none;
+}
+.header a:visited{
+    color: #808080;
+    text-decoration: none;
+}
+.header a:hover{
+    color: black;
+    transform: translateY(-4px);
+}
+#home:hover, #shop:hover, #contact:hover{
+    border-bottom: 2px solid black;
+}
+
+@media only screen and (min-width:720px) and (max-width: 939px) {
+    #top{
+        padding: 0px 60px;
+       
+    }
+    #buyify{       
+        font-size: 48px;              
+    }
+    #shop-online{
+        font-size: 20px;       
+    }
+    
+}
+
+@media only screen and (min-width:620px) and (max-width: 719px) {
+    #top{
+        padding: 0px 20px;
+       
+    }
+    #buyify{       
+        font-size: 36px;              
+    }
+
+    #shop-online{
+        font-size: 16px;      
+    }    
+}
+
+@media only screen and (min-width:360px) and (max-width: 619px) {
+    #top{
+        padding: 0px 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 24px;   
+    }
+
+    #buyify{       
+        font-size: 48px;              
+    }
+
+    #shop-online{
+        font-size: 18px;   
+    }
+
+    #email{
+        font-size: 15px;
+    }
+
+    #phone{
+        font-size: 15px;
+    }
+
+    #num-items{
+       
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        font-size: 14px;
+        
+    }
+  
+}
+
+
+  
+
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Satisfy', cursive; */

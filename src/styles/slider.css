@@ -1,0 +1,46 @@
+/* Slider.css */
+.slider-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+  
+.slider {
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 32px;
+}
+a:link{
+    text-decoration: none;
+}
+  
+.arrow-left{
+    position: absolute;
+    top: 40%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.arrow-right{
+    position: absolute;
+    top: 40%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+@media only screen and (min-width:360px) and (max-width: 1020px) {
+    .slider {
+            grid-gap: 8px;             
+    }
+}

@@ -1,0 +1,25 @@
+.product-item{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+    text-align: left;
+    max-width: 300px;
+    width:100%;
+    height:auto;
+}
+.product-item:hover{
+    transform:translateY(-4px);
+    transition: transform 0.2s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+.product-item p{
+    color:#666666;
+    font-size: 18px;
+    
+}
+
+.product-item h3{
+    font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  
+}
