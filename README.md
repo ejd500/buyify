@@ -1,3 +1,6 @@
+# Buyify
+To view the deployed project visit https://ejd500.github.io/buyify
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
