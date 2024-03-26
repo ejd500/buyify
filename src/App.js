@@ -65,7 +65,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <Router basename="/buyify">
       <Routes>
         <Route index element={<Home categoryList={categoryList} products={products} setSelectedCategory={setSelectedCategory} totalQuantity={totalQuantity}/>}/>
         <Route path="/productlist" element={<ProductList products={products} setProducts={setProducts} setSelectedCategory={setSelectedCategory} selectedCategory={selectedCategory} totalQuantity={totalQuantity} categoryList={categoryList}/>}/>
