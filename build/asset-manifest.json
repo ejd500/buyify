@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/buyify/static/css/main.b5a5d261.css",
-    "main.js": "/buyify/static/js/main.b821b315.js",
+    "main.js": "/buyify/static/js/main.27e4a228.js",
     "static/js/787.e2163735.chunk.js": "/buyify/static/js/787.e2163735.chunk.js",
     "static/media/shopping.jpg": "/buyify/static/media/shopping.03957cc2ca744d7890f1.jpg",
     "index.html": "/buyify/index.html",
     "main.b5a5d261.css.map": "/buyify/static/css/main.b5a5d261.css.map",
-    "main.b821b315.js.map": "/buyify/static/js/main.b821b315.js.map",
+    "main.27e4a228.js.map": "/buyify/static/js/main.27e4a228.js.map",
     "787.e2163735.chunk.js.map": "/buyify/static/js/787.e2163735.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b5a5d261.css",
-    "static/js/main.b821b315.js"
+    "static/js/main.27e4a228.js"
   ]
 }
